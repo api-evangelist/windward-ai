@@ -1,0 +1,96 @@
+aid: windward-ai
+name: Windward
+description: >-
+  Windward is a Maritime AI company headquartered in London and Washington
+  D.C. delivering mission-grade, multi-source maritime intelligence for
+  defense agencies, law enforcement, customs, energy and commodity traders,
+  marine insurers, shippers, and financial institutions. Founded by CEO
+  Ami Daniel, Windward fuses AIS data, remote sensing (EO, SAR, RF GEOINT),
+  proprietary behavioral analytics, and generative AI into a single
+  Maritime AI platform covering vessel screening, ownership and entity
+  resolution, sanctions exposure, deceptive shipping detection, ship-to-ship
+  transfer analysis, IUU fishing detection, smuggling detection, container
+  tracking, and maritime infrastructure protection. Windward exposes its
+  intelligence through the API Insights Lab, a unified GraphQL API at
+  developer.windward.ai providing programmatic access to vessel risk
+  scores, Organization Defined Risk (ODR), ultimate beneficial ownership,
+  early detection signals, tracked shipments, carriers, and detention &
+  demurrage data, along with webhooks and workflow automation. The company
+  has no public REST/OpenAPI surface, no public SDKs, and no public GitHub
+  org — its API is GraphQL-only with managed onboarding and expert-led
+  implementation support.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Maritime
+  - Maritime AI
+  - Maritime Domain Awareness
+  - Vessel Intelligence
+  - Vessel Risk
+  - Sanctions Screening
+  - Trade Compliance
+  - Trade Intelligence
+  - Risk and Compliance
+  - Deceptive Shipping
+  - Ship-to-Ship Transfer
+  - Container Tracking
+  - Supply Chain Visibility
+  - Behavioral Analytics
+  - Remote Sensing
+  - AIS
+  - GeoINT
+  - IUU Fishing
+  - Defense and Intelligence
+  - Border Security
+  - GraphQL
+url: https://raw.githubusercontent.com/api-evangelist/windward-ai/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://windward.ai
+  - type: API
+    url: https://windward.ai/api/
+  - type: DeveloperPortal
+    url: https://developer.windward.ai
+  - type: APIReference
+    url: https://developer.windward.ai/reference/overview
+  - type: LLMsTxt
+    url: https://developer.windward.ai/llms.txt
+  - type: Solutions
+    url: https://windward.ai/solutions/
+  - type: RiskAndCompliance
+    url: https://windward.ai/solutions/risk-compliance/
+  - type: BusinessIntelligence
+    url: https://windward.ai/solutions/business-intelligence/
+  - type: DefenseIntelligence
+    url: https://windward.ai/solutions/defense-intelligence/
+  - type: BorderAndAssetSecurity
+    url: https://windward.ai/solutions/border-asset-security/
+  - type: ContainerTracking
+    url: https://windward.ai/solutions/container-tracking/
+  - type: KnowledgeBase
+    url: https://windward.ai/knowledge-base/
+  - type: Blog
+    url: https://windward.ai/blog/
+  - type: Glossary
+    url: https://windward.ai/glossary/
+  - type: Company
+    url: https://windward.ai/company/
+  - type: Careers
+    url: https://windward.ai/careers/
+  - type: Contact
+    url: https://windward.ai/contact/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/windward-ltd-
+  - type: Twitter
+    url: https://twitter.com/windwardltd
+  - type: YouTube
+    url: https://www.youtube.com/@windwardltd
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
