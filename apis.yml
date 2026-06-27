@@ -59,7 +59,7 @@ common:
     url: https://developer.windward.ai
   - type: APIReference
     url: https://developer.windward.ai/reference/overview
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://developer.windward.ai/llms.txt
   - type: Solutions
     url: https://windward.ai/solutions/
