@@ -1,0 +1,52 @@
+# Windward GQL API Documentation
+
+> Documentation for Windward GQL API
+
+## API Reference
+- [Webhooks Advanced Guides](https://developer.windward.ai/reference/webhooks-advanced-guides.md)
+- [Workflows Advanced Guide](https://developer.windward.ai/reference/workflows-advanced-guide.md)
+- [Use-cases (Step by Step)](https://developer.windward.ai/reference/use-cases-step-by-step.md): Detailed instructions for performing investigations in specific situations
+- [Entity Management Solution](https://developer.windward.ai/reference/entity-management-solution.md): The Windward Pre-Matched Data provides enriched company information with correlated identifiers, including DUNS, WC1 IDs, and Windward unique IDs. The Windward API enables retrieving extensive information in a single call.
+- [searchCompaniesByTerm](https://developer.windward.ai/reference/searchcompaniesbyterm-1.md): This API provides detailed company information based on a search term, including:  Ownership Details: Company fleet, Ultimate Beneficial Owners (UBOs), WC1 ID, and DUNS number. Sanctions: Data on company and fleet-related sanctions. Risk Analysis: Risk profiles for associated vessels.
+- [vesselByIMO (vessel screening)](https://developer.windward.ai/reference/vesselbyimo-vessel-screening.md): This API investigates a vessel based on its IMO and provides detailed information, including:  Sanctions: Data on vessel-specific sanctions and associated risks. Ownership Details: Companies linked to the vessel, including Ultimate Beneficial Owners (UBOs), WC1 ID, and DUNS number. Company Sanctions: Sanctions related to the vessel's owning and operating companies. Risk Analysis: Comprehensive risk profiles for the vessel and related entities.
+- [vesselsByIMOs (vessel screening)](https://developer.windward.ai/reference/vesselsbyimos-1.md): Returns information on a multiple vessels by their IMO.
+- [searchCompaniesByTerm (company screening)](https://developer.windward.ai/reference/searchcompaniesbyterm.md): Enables users to consume necessary information to enhance its due diligence of companies.
+- [trackedShipments](https://developer.windward.ai/reference/trackedshipments.md): Returns tracked shipments.
+- [trackedShipmentsByIds](https://developer.windward.ai/reference/trackedshipmentsbyids.md): Returns specific tracked shipments in your project by ID.
+- [carriers](https://developer.windward.ai/reference/carriers.md): Returns all supported carriers.
+- [upsertTrackedShipment](https://developer.windward.ai/reference/upserttrackedshipment.md): Register shipment for future tracking.
+- [Webhook Reference](https://developer.windward.ai/reference/webhook-reference.md)
+- [Webhooks - Ocean Freight Visibility (OFV) ](https://developer.windward.ai/reference/webhooks-ocean-freight-visibility-ofv.md): OFV Related Event Types
+- [SearchVesselByIdentifier](https://developer.windward.ai/reference/searchvesselbyidentifier.md): This function allows searching for vessels using a non-exact term. It will return up to 50 suggested vessels that their name, IMO, MMSI or historical name may be relevant to the searched term
+- [vesselsByMMSI](https://developer.windward.ai/reference/vesselsbymmsi.md): Match any Vessel's Maritime Mobile Service Identity (MMSI) to the vessel's IMOs and ID to overcome any MMSI duplications and focus on the true vessel of interest.
+- [MAI Expert™ - Vessel Summary](https://developer.windward.ai/reference/mai-expert-vessel-summary.md): Gen AI-powered maritime risk analysis agent
+- [MAI Expert™ - Adverse Media](https://developer.windward.ai/reference/mai-expert-adverse-media.md): Gen AI-powered maritime risk analysis agent
+- [Detention and Demurrage Fees API](https://developer.windward.ai/reference/dnd-api-detention-and-demurrage.md)
+- [EarlyDetectionEntitiesBy](https://developer.windward.ai/reference/earlydetection.md)
+- [MAI Expert™ - Early Detection ](https://developer.windward.ai/reference/early-detection-mai-expert-api.md): Use the EarlyDetectionMAIExpert query to retrieve enriched summaries of maritime anomalies
+- [CompanyRole](https://developer.windward.ai/reference/companyrole.md): The role type the company has with the vessel.
+- [delayReasonCode](https://developer.windward.ai/reference/delayreasoncode.md): A 3 letter code describing the reason for delay.
+- [emptyIndicatorCode](https://developer.windward.ai/reference/emptyindicatorcode.md)
+- [EquipmentEventTypeCodeEnum](https://developer.windward.ai/reference/equipmenteventtypecodeenum.md): Equipment event type codes.
+- [EventDescriptions](https://developer.windward.ai/reference/eventdescriptions.md): Describes the status of the shipment*
+- [eventTypes](https://developer.windward.ai/reference/eventtypes.md)
+- [EventTypeEnum](https://developer.windward.ai/reference/eventtypeenum.md): Event types.
+- [shipmentEventTypeCode](https://developer.windward.ai/reference/shipmenteventtypecode.md)
+- [shipmentLocationTypeCode](https://developer.windward.ai/reference/shipmentlocationtypecode.md)
+- [shipmentPhase](https://developer.windward.ai/reference/shipmentphase.md): 3-letters code describing the stage of the delay.
+- [TransportEventTypeCodeEnum](https://developer.windward.ai/reference/transporteventtypecodeenum.md): Transport event type codes.
+- [Company](https://developer.windward.ai/reference/company.md): The company-related attributes.
+- [CompanySanction](https://developer.windward.ai/reference/companysanction.md): The attributes of the sanction imposed on the company.
+- [Delay](https://developer.windward.ai/reference/delay.md): Array describing the details of the delayed ETA
+- [Ownership](https://developer.windward.ai/reference/ownership.md): The relation between the vessel and the company
+- [Ownerships](https://developer.windward.ai/reference/ownerships.md): Represent the Fleet of the company
+- [ReportedPort](https://developer.windward.ai/reference/reportedport.md): The transmitted destination port.
+- [Response](https://developer.windward.ai/reference/response.md): The response represents the status of the data retrieved by Windward's API
+- [Shipment](https://developer.windward.ai/reference/shipment.md): The tracked shipment information.
+- [Status](https://developer.windward.ai/reference/status.md): The shipment status.
+- [StatusEvent](https://developer.windward.ai/reference/statusevent.md): The shipment status event provided by the carrier and standardized by WindWard.
+- [UltimateBeneficialOwners](https://developer.windward.ai/reference/ultimatebeneficialowners.md): Dun & Bradstreet Ultimate Beneficial Owners data
+- [VesselIntelligence](https://developer.windward.ai/reference/vesselintelligence.md): The vessel-related data.
+- [Events names](https://developer.windward.ai/reference/events-names.md): The event names will be conducted from the combination of the eventType, and the locationTypeCode, according to the “names table” below.   ###
+- [voyageStatus](https://developer.windward.ai/reference/voyagestatus.md): Describes the status of arrival of the shipment (used mainly in the application)
+- [VesselSanction](https://developer.windward.ai/reference/vesselsanction.md): The attributes of the sanction imposed on the Vessel.
